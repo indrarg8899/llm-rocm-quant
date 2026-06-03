@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Quantized models (large)
+quantized/
+*.safetensors
+*.bin
+*.gguf
+*.onnx
+*.pt
+
+# Logs & cache
+*.log
+.cache/
+*.cache
+
+# Data
+data/
+*.csv
+*.tsv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+htmlcov/
+.coverage
+coverage.xml

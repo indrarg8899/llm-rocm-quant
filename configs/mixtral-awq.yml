@@ -1,0 +1,13 @@
+# Mixtral-8x7B AWQ 4-bit Quantization
+model: mistralai/Mixtral-8x7B-v0.1
+method: awq
+bits: 4
+group_size: 128
+output_dir: ./quantized/mixtral-8x7b-awq-4bit
+num_calibration_samples: 64
+n_search: 20
+alpha_min: 0.0
+alpha_max: 1.0
+gpu_id: 0
+num_gpus: 2
+verbose: true

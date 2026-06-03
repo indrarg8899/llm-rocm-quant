@@ -1,0 +1,11 @@
+# BERT SmoothQuant FP8 Quantization
+model: bert-base-uncased
+method: smoothquant
+bits: 8
+group_size: 128
+output_dir: ./quantized/bert-smoothquant-fp8
+num_calibration_samples: 128
+smooth_alpha: 0.5
+fp8: true
+gpu_id: 0
+verbose: true

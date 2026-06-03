@@ -1,0 +1,12 @@
+# Llama-3-8B GPTQ 4-bit Quantization
+model: meta-llama/Meta-Llama-3-8B
+method: gptq
+bits: 4
+group_size: 128
+output_dir: ./quantized/llama3-8b-gptq-4bit
+num_calibration_samples: 128
+act_order: true
+percdamp: 0.01
+blocksize: 128
+gpu_id: 0
+verbose: true
